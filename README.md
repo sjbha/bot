@@ -138,6 +138,10 @@ interface Plugin {
 }
 ```
 
+# Auto restarting the bot
+
+Modify the bot.conf file appropriately, copy it to the supervisor config file directory, and reload supervisord.  It will automatically restart the bot.
+
 # Actions
 
 // todo
