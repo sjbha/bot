@@ -8,11 +8,11 @@ import Boombot from './plugins/Boombot'
 
 const channels = {
     "admin": process.env.C_ADMIN,
-    "shitpost": "506911331257942027",
-    "strava": "450913008323919872",
-    "boombot": "432766496700235776",
-    "stocks": "363123179696422916",
-    "dungeon": "497505757865050112",
+    "shitpost": "616751303162593313",
+    "strava": "616751303162593313",
+    "boombot": "616751303162593313",
+    "stocks": "616751303162593313",
+    "dungeon": "616751303162593313",
     "announcement": process.env.C_ANNOUNCEMENT,
     "compact": process.env.C_COMPACT
 }
@@ -25,7 +25,8 @@ const bastion = Bastion({
 })
 
 // Load modules
-bastion.use(botModules(bastion), { ignore: [channels.boombot] })
+// bastion.use(botModules(bastion), { ignore: [channels.boombot] })
+bastion.use(botModules(bastion))
 bastion.use(Boombot(bastion, {
     restrict: [channels.boombot]
 }))

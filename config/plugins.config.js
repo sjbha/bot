@@ -54,7 +54,7 @@ export default bastion => ([
     }),
     Ban,
     Stats(bastion, {
-        restrict: ["430517752546197509"]
+        restrict: ["616751303162593313"]
     }),
     Teams(bastion, {
         listRestrict: ["shitpost", "admin"]
@@ -64,7 +64,7 @@ export default bastion => ([
     }),
     Subscribe(bastion, { subscriptions }),
     Strava(bastion, {
-        restrict: ["strava", "430517752546197509"]
+        restrict: ["strava", "616751303162593313"]
     }),
     Events(bastion, {
         command: "meetup",
@@ -84,7 +84,7 @@ export default bastion => ([
         }
     }),
     Outbreak(bastion, {
-        restrict: ["shitpost", "430517752546197509"]
+        restrict: ["shitpost", "616751303162593313"]
     }),
     AutoTag(bastion, {
         restrict: ["416708557984104448"]
@@ -95,11 +95,11 @@ export default bastion => ([
         channel: "506911331257942027"
     }),
     DuckHunt(bastion, {
-        listRestrict: ["shitpost", "430517752546197509"]
+        listRestrict: ["shitpost", "616751303162593313"]
     }),
     RoyRoyBucks,
     Lotto(bastion, {
-        restrict: ["506911331257942027", "430517752546197509"]
+        restrict: ["506911331257942027", "616751303162593313"]
     }),
     Music,
     Olympics,
@@ -108,6 +108,6 @@ export default bastion => ([
     AskDiscussion,
     Yelling
     // Fools(bastion, {
-    //     listRestrict: ["shitpost", "430517752546197509"]
+    //     listRestrict: ["shitpost", "616751303162593313"]
     // })
 ])

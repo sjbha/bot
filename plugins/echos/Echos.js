@@ -77,17 +77,17 @@ export default function(bastion, config={}) {
 
         {
             command: "git",
-            resolve: "Github: https://github.com/hellos3b/sjbha-bot"
+            resolve: "Github: https://github.com/sjbha/bot"
         },
 
         {
             command: "github",
-            resolve: "Github: https://github.com/hellos3b/sjbha-bot"
+            resolve: "Github: https://github.com/sjbha/bot"
         },
 
         {
             command: "bug",
-            resolve: "Submit the bug here so I can keep track of them: https://github.com/hellos3b/sjbha-bot/issues/new"
+            resolve: "Submit the bug here so I can keep track of them: https://github.com/sjbha/bot/issues/new"
         }
 
         // {
