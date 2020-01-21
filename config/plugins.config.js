@@ -10,6 +10,7 @@ import Ban from '../plugins/Ban'
 import Events from '../plugins/Events'
 import Ask from '../plugins/Ask'
 import Stats from '../plugins/Stats'
+import Eval from '../plugins/Eval'
 import db from '../plugins/db'
 import Teams from '../plugins/Teams'
 import Outbreak from '../plugins/Outbreak'
@@ -106,7 +107,8 @@ export default bastion => ([
     UrbanDictionary,
     Trading,
     AskDiscussion,
-    Yelling
+    Yelling,
+    Eval
     // Fools(bastion, {
     //     listRestrict: ["shitpost", "616751303162593313"]
     // })
