@@ -1,4 +1,5 @@
 // plugins
+import Ping from '../plugins/echos/Ping'
 import Echos from '../plugins/echos/Echos'
 import Subscribe from '../plugins/Subscribe'
 import Poll from '../plugins/Poll'
@@ -47,6 +48,7 @@ export default bastion => ([
         mongoUrl: process.env.MONGO_URL
     }),
     Ask,
+    Ping,
     Echos,
     Poll,
     TLDR(bastion, {
