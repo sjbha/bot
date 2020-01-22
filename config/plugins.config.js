@@ -1,5 +1,4 @@
 // plugins
-import Ping from '../plugins/echos/Ping'
 import Echos from '../plugins/echos/Echos'
 import Subscribe from '../plugins/Subscribe'
 import Poll from '../plugins/Poll'
@@ -28,6 +27,7 @@ import UrbanDictionary from '../plugins/UrbanDictionary'
 import Trading from '../plugins/Trading'
 import AskDiscussion from '../plugins/AskDiscussion'
 import Yelling from '../plugins/yelling'
+import Wikipedia from '../plugins/Wikipedia'
 
 const subscriptions = {
     "photomeet": "486330820114513920",
@@ -47,7 +47,6 @@ export default bastion => ([
         mongoUrl: process.env.MONGO_URL
     }),
     Ask,
-    Ping,
     Echos,
     Poll,
     TLDR(bastion, {
@@ -108,6 +107,7 @@ export default bastion => ([
     Trading,
     AskDiscussion,
     Yelling,
+    Wikipedia,
     Eval
     // Fools(bastion, {
     //     listRestrict: ["shitpost", "616751303162593313"]
